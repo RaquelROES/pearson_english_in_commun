@@ -232,6 +232,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     display: none;
 }
 
+.content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content h2 #courseIndex {
+    display: none;
+}
+
 #top-navigator {
 	height: 55px;
 	overflow: hidden;
