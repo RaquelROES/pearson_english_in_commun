@@ -247,8 +247,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	width: 100%;
 	left: 0;
 	z-index: 100;
-	background-color: #f2f2f2;
-	background: linear-gradient(to bottom, white, #f2f2f2);
+	background-color: #003057;
+    background: #003057;
+    padding-top: 11px;
 }
 
 body.is_app .pearson_ec-navbar {
@@ -284,8 +285,9 @@ body.is_app .pearson_ec-navbar.ocultar {
 	padding: 0;
 	margin: 0;
 	text-align: left;
-	line-height:
 	border: none;
+	color: #fff;
+    vertical-align: bottom;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdown button:focus {
@@ -293,18 +295,26 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdown .caret {
-	border-color: black transparent transparent transparent;
+	border-color: #fff transparent transparent transparent;
 	margin-left: 10px;
+}
+
+.content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas .caret {
+    border-color: #fff transparent transparent transparent;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content {
 	max-width: 1160px;
 	margin: 0 20px;
-	border-bottom: 1px solid #9665AB;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas {
 	position: relative;
+	display: inline-block;
+    margin-top: -10px;
+    border-right: 10px solid #fff;
+    padding-right: 40px;
+    margin-left: 50px;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas:focus,
@@ -323,11 +333,12 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas .dropdown-menu {
-	left: 50px;
+	left: 0px;
+    margin-top: -9px;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content h2 {
-	color: #9665AB;
+	color: #fff;
 	font-weight: 600;
 	font-size: 2.5rem;
 	margin-bottom: 0;
@@ -342,33 +353,9 @@ body.is_app .pearson_ec-navbar.ocultar {
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content h2 #nombre-tema-wrapper {
 	line-height: 2.5rem;
+	margin-left: -59px;
 }
 
-.content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content h2 #courseIndex {
-	background-color: #9665AB;
-    font-size: 4rem;
-    color: white;
-    display: inline-block;
-    width: 60px;
-    text-align: center;
-    border-radius: 10px;
-    margin-right: 20px;
-    position: absolute;
-    left: -10px;
-    height: 60px;
-    bottom: -1px;
-    padding-top: 8px;
-	border-bottom-right-radius: 0;
-}
-
-.content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content h2 a {
-	font-size: 1.6rem;
-	font-weight: normal;
-	padding-left: 10px;
-	margin-left: 10px;
-	display: inline-block;
-	border-left: 1px dotted grey;
-}
 
 .content_type_clase_pearson_ec .slider-indicators {
 	padding: 10px 0px;
@@ -406,13 +393,13 @@ body.is_app .pearson_ec-navbar.ocultar {
 
 .content_type_clase_pearson_ec .slider-indicators li.active,
 .content_type_clase_pearson_ec .pearson_ec-navbar li:hover {
-	background-color: #D9D2F1;
+	background-color: #cddfee;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdown {
-	display: block;
-	float: left;
-	margin: 10px 0;
+	display: inline-block;
+    float: none;
+    margin: 0px 0px 0px 40px;
 }
 
 .open > .dropdown-menu {
@@ -432,7 +419,7 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .dropdownTemas .dropdown-menu > li > a:hover {
-	background-color: transparent;
+	background-color: #cddfee;
 }
 
 .dropdownTemas .dropdown-menu > li > span {
