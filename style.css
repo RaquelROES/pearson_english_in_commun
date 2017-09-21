@@ -312,7 +312,8 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas .caret {
-    border-color: #fff transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
+    margin-left: 10px;
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content {
@@ -516,8 +517,16 @@ body.is_app .pearson_ec-navbar.ocultar {
 .navigator .slider-control.left:before,
 .navigator .slider-control.right:after {
 	font-family: 'FontAwesome';
-	position: absolute;
-	margin-top: 9px;
+    position: absolute;
+    margin-top: 9px;
+    background: inherit;
+    color: inherit;
+    border-radius: inherit;
+    width: 8px;
+    height: 21px;
+    line-height: inherit;
+    text-align: inherit;
+    font-size: 4.0rem;
 }
 
 .navigator .slider-control.left:before {
@@ -579,6 +588,7 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .bck-title1 {
+	font-family: inherit;
 	color: #000;
     font-size: 3.6rem;
     font-weight: bold;
@@ -587,6 +597,7 @@ body.is_app .pearson_ec-navbar.ocultar {
     padding-left: 50px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    border-left: 0px;
 }
 
 .bck-title2 {
@@ -599,6 +610,7 @@ body.is_app .pearson_ec-navbar.ocultar {
     border-bottom: 0px;
     position: relative;
     margin-top: 0px;
+    border-left: 0px;
 }
 
 .bck-title3 {
@@ -607,6 +619,7 @@ body.is_app .pearson_ec-navbar.ocultar {
     font-weight: 600;
     display: inline-block;
 	position: relative;
+	border-left: 0px;
 }
 
 .bck-title4{
@@ -686,12 +699,13 @@ body.is_app .pearson_ec-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol li:before,
 #actividad .content .workspace ul li .bck-ol li:before {
     content: counter(bck-li-counter)'';
-    left: -2.5em;
-	position: absolute;
-	width: 38px;
-	text-align: right;
-    color: #006FC7;
+	text-align: right;  
     font-weight: bold;
+    left: 0.5em;
+    top: 0.12rem;
+    position: absolute;
+    width: 2em;
+    color: #0095DA;
 }
 
 #actividad .content .texto_curso .bck-ol-2,
