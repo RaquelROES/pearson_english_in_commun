@@ -1,4 +1,5 @@
 
+
 /*General */
 .body_clase .content-wrapper {
 	padding-top: 130px;
@@ -58,6 +59,8 @@ a:hover, a:active, a:focus {
 .zoom_flag_img {
     top: 20px;
 }
+
+
 /*HEADER*/
 
 .content_type_clase_pearson_ec #actividad .content .header .title img,
@@ -182,7 +185,7 @@ fieldset[disabled] .content_type_clase_pearson_ec .slide_main input {
 /**/
 
 /* CURSO */
-#indice .units ul li {
+
 #indice .unit-content {
     border-radius: 20px;
 }
