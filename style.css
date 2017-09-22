@@ -695,6 +695,21 @@ body.is_app .pearson_ec-navbar.ocultar {
     position: relative;
 }
 
+
+.content ol li:before, .cke_contents ol li:before {
+    content: counter(bck-li-counter)'';
+    position: absolute;
+    margin-left: -1.5em;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 2.0rem;
+    text-align: right;
+    color: #414141;
+    margin-top: -2px;
+}
+
+
+
 #actividad .content .texto_curso .bck-ol li:before,
 #actividad .content .workspace ul li .bck-ol li:before {
     content: counter(bck-li-counter)'';
