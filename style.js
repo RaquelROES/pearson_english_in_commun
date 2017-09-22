@@ -15,7 +15,6 @@
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
 				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title4'} },
-				
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
 				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
@@ -30,6 +29,8 @@
 				{ name: 'Caja simple', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple' } },
 				{ name: 'Caja simple 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-2' } },
 				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
+				{ name: 'Caja simple 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-4' } },
+
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
 				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
