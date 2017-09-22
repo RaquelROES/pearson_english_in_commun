@@ -191,7 +191,7 @@ fieldset[disabled] .content_type_clase_pearson_ec .slide_main input {
 }
 
 #indice .unit-content .header {
-    border: 0px solid #9665AB;
+    border: 0px solid #000000;
     border-radius: 0px;
 }
 
@@ -311,10 +311,6 @@ body.is_app .pearson_ec-navbar.ocultar {
 	margin-left: 10px;
 }
 
-.content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas .caret {
-    border-color: #ffffff transparent transparent transparent;
-    margin-left: 10px;
-}
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .navbar-content {
 	max-width: 1160px;
@@ -341,7 +337,7 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .content_type_clase_pearson_ec .pearson_ec-navbar .dropdownTemas .caret{
-	border-color: #9665AB transparent transparent transparent;
+	border-color: #fff transparent transparent transparent;
 	margin-left: 10px;
 }
 
@@ -456,6 +452,7 @@ body.is_app .pearson_ec-navbar.ocultar {
 	color: #777;
 	font-size: 1.5rem;
 	overflow: auto;
+	background-color: #cddfee; 
 }
 /**/
 
@@ -628,10 +625,12 @@ body.is_app .pearson_ec-navbar.ocultar {
     color: #006FC7;
 }
 
-.bck-enfasis {
-    color: #9363A8;
+.bck-enfasis, strong {
+    color: #414141;
     font-weight: bold;
 }
+
+
 
 .bck-enfasis-naranja {
 	color: #ED7102;
