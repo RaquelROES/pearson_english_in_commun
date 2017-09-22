@@ -853,6 +853,10 @@ body.is_app .pearson_ec-navbar.ocultar {
     margin-right: 25px;
 }
 
+.bck-box.simple-4.bck-box .bck-content {
+    padding: 0px;
+}
+
 /**/
 
 /*ENLACES*/
@@ -1184,6 +1188,10 @@ body.is_app .pearson_ec-navbar.ocultar {
 /**/
 
 /**TABLA**/
+
+#table{
+	margin-bottom: 0px;
+}
 
 .bck-table {
 	border: 0;
