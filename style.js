@@ -31,6 +31,8 @@
 				{ name: 'Caja simple 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-2' } },
 				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
 				{ name: 'Caja simple 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-4' } },
+				{ name: 'Caja texto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-5' } },
+
 
 
 				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
