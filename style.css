@@ -831,14 +831,23 @@ body.is_app .pearson_ec-navbar.ocultar {
 }
 
 .bck-box.simple-2 {
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10px;
-	text-align: left;
+	background-color: #E1ECF8;
+    border-radius: 0px;
+    -webkit-box-shadow: 10px 10px 20px 0 #9E9E9E;
+    box-shadow: 10px 10px 20px 0 #9E9E9E;
+    padding-top: 25px;
 }
 
-.bck-box.simple-2 > .bck-content {
+.bck-box.simple-2 .bck-title {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    padding: 0px 25px;
+}
+
+.bck-box.simple-2.bck-content {
 	padding: 10px 25px;
 }
+
 
 .bck-box.simple-3 {
 	border-top: 6px solid #B34532;
