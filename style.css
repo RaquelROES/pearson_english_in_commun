@@ -894,6 +894,16 @@ body.is_app .pearson_ec-navbar.ocultar {
 	padding: 10px 25px;
 }
 
+.bck-box.simple-6 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.bck-box.simple-6 .bck-content {
+    padding: 10px 25px;
+}
+
 /**/
 
 /*ENLACES*/
