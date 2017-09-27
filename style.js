@@ -32,6 +32,7 @@
 				{ name: 'Caja simple 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-3' } },
 				{ name: 'Caja simple 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-4' } },
 				{ name: 'Caja texto', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-5' } },
+				{ name: 'Caja texto2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'simple-6' } },
 
 
 
