@@ -1,15 +1,15 @@
 (function (blink) {
 	'use strict';
 
-	var pearson_ecStyle = function () {
+	var pearson_ec_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	pearson_ecStyle.prototype = {
-		bodyClassName: 'content_type_clase_pearson_ec',
+	pearson_ec_demoStyle.prototype = {
+		bodyClassName: 'content_type_clase_pearson_ec_demo',
 		ckEditorStyles: {
-			name: 'pearson_ec',
+			name: 'pearson_ec_demo',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
@@ -39,8 +39,8 @@
 				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
 
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec-dropdown-2' } },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec_demo-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'pearson_ec_demo-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
@@ -127,7 +127,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'pearson_ec-navbar')
+				.attr('class', 'pearson_ec_demo-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -289,7 +289,7 @@
 
 		animateNavbarOnScroll: function () {
 			if (!blink.isApp) return;
-			var $navbar = $('.pearson_ec-navbar');
+			var $navbar = $('.pearson_ec_demo-navbar');
 			var lastScrollTop = 0;
 			$('.js-slider-item').scroll(function () {
 				var scrollTop = $(this).scrollTop();
@@ -299,14 +299,14 @@
 		},
                 
                 changeHighBar: function () {
-                    if($('.pearson_ec-navbar').length>0 && $('.navbar').length>0){
-                        blink.theme.setTopByHeight('.navbar', '.pearson_ec-navbar');
+                    if($('.pearson_ec_demo-navbar').length>0 && $('.navbar').length>0){
+                        blink.theme.setTopByHeight('.navbar', '.pearson_ec_demo-navbar');
                     }
                 }
 	};
 
-	pearson_ecStyle.prototype = _.extend({}, new blink.theme.styles.basic(), pearson_ecStyle.prototype);
+	pearson_ec_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), pearson_ec_demoStyle.prototype);
 
-	blink.theme.styles['pearson_ec'] = pearson_ecStyle;
+	blink.theme.styles['pearson_ec_demo'] = pearson_ec_demoStyle;
 
 })( blink );
